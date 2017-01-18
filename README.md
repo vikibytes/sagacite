@@ -1,2 +1,1 @@
-# connaissances
-My notes on various courses that I study
+# My notes on various courses that I studied
