@@ -31,3 +31,18 @@
     - Uniform probability law: Probability = Area
     - Example : (x, y) such that 0 ≤ x, y ≤ 1
 
+### Interpretations of probability theory
+- Probabilities as frequencies (Frequentist)
+- Probabilities as description of beliefs (Bayesian)
+
+### Role of Probability
+![Role of Probability](images/role_of_prob.png)
+
+### More on Countable Additivity
+- Countable Additivity Axiom:
+If A1, A2, A3,. . . is an infinite sequence of disjoint events,
+then 
+
+    - P(A1 ∪ A2 ∪ A3 ∪ · · ·) = P(A1) + P(A2) + P(A3) +· · ·
+
+- ELI5: The probability of disjoint events is equal to the sum of their individual probabilities
