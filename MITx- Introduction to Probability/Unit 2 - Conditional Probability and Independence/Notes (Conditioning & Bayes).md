@@ -24,6 +24,8 @@ given B is 1, i.e., P(B|B)=1
     - Axiom 3: If A1,A2,A3,⋯
 are disjoint events, then P(A1 ∪ A2 ∪ A3⋯|B)=P(A1|B)+P(A2|B)+P(A3|B)+⋯.
 
+- ELI5: The probability of an event (B) happening given that an event (A) has occured is the probability of both the events occuring P(B ∩ A) divided by the probability of the conditioning event. P(A)
+
 ### Multiplication Rule
 P(A ∩ B) = P(A|B) * P(B)
          = P(B|A) * P(A)
@@ -34,14 +36,18 @@ P(A ∩ B) = P(A|B) * P(B)
 - for any two events A and B, we can write 
     - P(A) = P(A|B) P(B) + P(A|B') P(B').
 
+- can be simplified as  ∑i P(A|Bi) P(Bi), where i is the partition.
+
 ### Bayes Rule
 - Suppose that we know P(A|B), but we are interested in the probability P(B|A). Using the definition of conditional probability, we have<br/>
 P(A|B) P(B) = P(A∩B) = P(B|A) P(A).
 
-Dividing by P(A), we obtain <br/>
+Dividing the left and right formulas by P(A), we obtain <br/>
 P(B|A) = P(A|B) P(B) / P(A),
 which is the famous Bayes' rule. 
 
 Often, in order to find P(A) in Bayes' formula we need to use the law of total probability, so sometimes Bayes' rule is stated as<br/>
 P(Bj|A) = P(A|Bj) P(Bj)/ ∑iP(A|Bi)P(Bi),<br/>
 where B1,B2,⋯,Bn form a partition of the sample space.
+
+- Note that in the Bayes Rule formula, the numerator is what we calculate using the Multiplication Rule and the denominator is what we calculate using the Total Probability Theorem
