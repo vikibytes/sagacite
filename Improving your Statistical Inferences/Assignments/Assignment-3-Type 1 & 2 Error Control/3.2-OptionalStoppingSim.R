@@ -1,7 +1,7 @@
 N<-100 #total number of datapoints (per condition) you are willing to collect
 Looks<-5 #set number of looks at the data
 nSim<-50000 #number of simulated studies
-alpha<-0.05 #set alpha
+alpha<-0.0158 #set alpha
 
 D<-0 #True effect size (must be 0 when simulating Type 1 errors)
 
@@ -48,5 +48,5 @@ abline(h=nSim/breaks, col = "red", lty=3)
 cat("Type 1 error rates for look 1 to", Looks,":", SigSeq/nSim)
 cat("Type 1 error rate when only the lowest p-value for all looks is reported:", sum(p<alpha)/nSim)
 
-#© Daniel Lakens, 2016. 
+#? Daniel Lakens, 2016. 
 # This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. https://creativecommons.org/licenses/by-nc-sa/4.0/

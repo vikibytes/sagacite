@@ -1,6 +1,6 @@
 n<-200 #total number of datapoints (per condition) you are willing to collect after initial 10
 
-D<-0.0 #True effect size (Keep SD below to 1, otherwise, this is just mean dif, not d)
+D<-0.3 #True effect size (Keep SD below to 1, otherwise, this is just mean dif, not d)
 SD<-1 #Set True standard deviation.
 
 p<-numeric(n) #store p-values
@@ -28,7 +28,8 @@ axis(1, at=seq(0, n-10, by=(n-10)/4), labels = seq(10, n, by=(n-10)/4))
 
 min(p) #Return lowest p-value from all looks
 cat("The lowest p-value was observed at sample size",which.min(p)+10) #Return the sample size at which the p-value was smallest
-cat("The p-value dropped below 0.05 for the first time as sample size",which(p<0.05)[1]+10) #Return the sample size at which the p-value dropped below 0.05 for the first
+cat(" ")
+cat("The p-value dropped below 0.05 for the first time at sample size",which(p<0.05)[1]+10) #Return the sample size at which the p-value dropped below 0.05 for the first
 
-#© Daniel Lakens, 2016. 
+#? Daniel Lakens, 2016. 
 # This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. https://creativecommons.org/licenses/by-nc-sa/4.0/

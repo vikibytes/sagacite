@@ -15,5 +15,10 @@ on whether event B will occur.
 In such a case, we say that events A and B are
 independent.
 
+- Intuitive definition = P(B | A) = P(B) i.e., occurence of A provides no new information about B.
 
+- In this case, P(A ∩ B) = P(A) P(B | A) = P(A) P(B).
 
+- Formal Definition of Independence = P(A ∩ B) = P(A) P(B)
+
+- Independence is a relation about information
