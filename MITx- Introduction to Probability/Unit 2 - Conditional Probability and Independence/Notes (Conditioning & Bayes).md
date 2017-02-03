@@ -40,7 +40,7 @@ P(A ∩ B) = P(A|B) * P(B)
 
 ### Bayes Rule
 - Suppose that we know P(A|B), but we are interested in the probability P(B|A). Using the definition of conditional probability, we have<br/>
-P(A|B) P(B) = P(A∩B) = P(B|A) P(A).
+P(A|B) P(B) = P(A ∩ B) = P(B|A) P(A).
 
 Dividing the left and right formulas by P(A), we obtain <br/>
 P(B|A) = P(A|B) P(B) / P(A),

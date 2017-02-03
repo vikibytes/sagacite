@@ -20,5 +20,17 @@ independent.
 - In this case, P(A ∩ B) = P(A) P(B | A) = P(A) P(B).
 
 - Formal Definition of Independence = P(A ∩ B) = P(A) P(B)
+    - Symmetric with respect to A and B
+    - implies P(A | B) = P(A)
+    - applies even if P(A) = 0
 
 - Independence is a relation about information
+
+- If A and B are independent, then A and B` are also independent.
+
+- Conditional Independence : P(A ∩ B | C) = P(A | C) P(B | C)
+
+- Conditioning affects Independence. Therefore be sure to check the conditioning event.
+
+- Independence of a collection of events : P(A1 ∩ A2 ∩ A3 ∩ A4 ∩ A5 ∩ ...An) = P(A1) P(A2) P(A3) ... P(An)
+
