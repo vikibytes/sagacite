@@ -61,5 +61,5 @@ How many pairs of people can be chosen from a group of 5 ?
 
 # Multinomial Coefficient
 - How many possible ways to partition n elements into r different subsets ?
-    - n! /  n<sub>1</sub>! * n<sub>2</sub>! * n<sub>3</sub>! * ... n<sub>r</sub>! * 
+    - n! /  n<sub>1</sub>! * n<sub>2</sub>! * n<sub>3</sub>! * ... n<sub>r</sub>! 
 
