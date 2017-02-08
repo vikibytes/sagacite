@@ -33,5 +33,33 @@
 
 - Number of licence plates with two letters followed by three numbers -> 2 * 1 * 3 * 2 * 1
 
+- Number of possible outcomes of 6 rolls of a 6-sided die : For each roll there are 6 possible outcomes. Therefore for 6 rolls, there are a total of 6 * 6 * 6 * 6 * 6 * 6 = 6<sup>6</sup> possible outcomes.
 
+- Ordered with no repetitions:
+How many pairs of people can be chosen from a group of 5 ? 
+    - We have a total possible arrangement with repetitions 5 * 5 = 25. We can see that there are 5 duplicate pairs ... So we have 25 -5 = 20 possible pairs.
+
+    - In general, we can write this down as N ^ N - N = N  * (N - 1)
+
+    - An easier formula is : N! / (N - n) !
+
+- Unordered sets with no repetitions:
+
+### Combinations
+
+- Picking k element subsets out of n elements (n choose k)
+
+### Binomial Probabilities
+
+- P(HTTHTT) = p (1-p) (1-p) p (1-p) (1-p) = p<sup>2</sup> * (1-p)<sup>4</sup>, where p = probability of heads.
+
+- In general, P(particular sequence) = p<sup># heads</sup> * (1-p)<sup># tails</sup>
+
+- P(particular k-head sequence) = p<sup># heads</sup> * (1-p)<sup># tails</sup> * (# of k-head sequences), where (# of k-head sequences) is given by the binomial co-efficient (n choose k)
+
+- The p<sup># heads</sup> * (1-p)<sup># tails</sup> * (n choose k) is the Binomial probability.
+
+# Multinomial Coefficient
+- How many possible ways to partition n elements into r different subsets ?
+    - n! /  n<sub>1</sub>! * n<sub>2</sub>! * n<sub>3</sub>! * ... n<sub>r</sub>! * 
 
