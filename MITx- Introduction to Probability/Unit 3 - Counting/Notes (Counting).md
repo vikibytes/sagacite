@@ -33,7 +33,9 @@
 
 - Number of licence plates with two letters followed by three numbers -> 2 * 1 * 3 * 2 * 1
 
-- Number of possible outcomes of 6 rolls of a 6-sided die : For each roll there are 6 possible outcomes. Therefore for 6 rolls, there are a total of 6 * 6 * 6 * 6 * 6 * 6 = 6<sup>6</sup> possible outcomes.
+- Unordered with repetitions:
+    - Number of possible outcomes of 6 rolls of a 6-sided die : For each roll there are 6 possible outcomes. Therefore for 6 rolls, there are a total of 6 * 6 * 6 * 6 * 6 * 6 = 6<sup>6</sup> possible outcomes.
+    - In general, N<sup>n</sup>, where N is size of sample set, n is the number of experiments.
 
 - Ordered with no repetitions:
 How many pairs of people can be chosen from a group of 5 ? 
@@ -43,7 +45,7 @@ How many pairs of people can be chosen from a group of 5 ?
 
     - An easier formula is : N! / (N - n) !
 
-- Unordered sets with no repetitions:
+- Unordered sets with no repetitions: ??
 
 ### Combinations
 
